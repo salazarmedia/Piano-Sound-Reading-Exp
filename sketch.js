@@ -2,12 +2,12 @@ let audioContext;
 let piano;
 let pitch;
 let midiNum;
-let currentNote = '';
-let oldNote = '';
-let currentFreq = false;
+// let currentNote = '';
+// let oldNote = '';
+// let currentFreq = false;
 var volHist = []
 var freqHist = [];
-let fft;
+// let fft;
 
 function setup() {
   createCanvas(400, 400);
@@ -54,7 +54,6 @@ function getPitch() {
   }
   //console.log(freqHist);
 }
-
 
 //////////////////////////////////////////////////////////
 
